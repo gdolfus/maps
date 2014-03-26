@@ -1,0 +1,28 @@
+# 	Gero Dolfus
+# 	University of Helsinki, HECER
+# 	Start: February 2014.
+#
+#
+#   Display Finnish municipal data in maps.
+
+
+mun_map.R           Create a map displaying unemployment data.
+                    Simple year-by-year plot.
+                    Panel plot.
+                    Plot with markers for points of interest.
+                    Uses ggplot.
+
+base_map.R          Create a map with the geographical data only.
+                    Create a map displaying random data.
+                    Shows how to take care of 
+                    1) missing observations (municipality X data NA)
+                    2) missing municipalities (municipality NA data NA).
+                    Uses spatial polygon objects and spplot.
+                    
+unempl_map.R        Create a map displaying unemployment rates.
+                    Based on base_map.R
+                    Basically, you only need to read the municipal data.
+                    
+panel_map.R         Create a map displaying unemployment rates by year.
+                    Based on unempl_map.R.
+                    
