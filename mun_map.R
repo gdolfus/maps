@@ -165,7 +165,10 @@ mun.dat$mydat <- factor(mun.dat$mydat)
 
 
 # Extract the data in the panel format.
+
+# Raw data. !!!! DOESN'T WORK YET!
 # tmp.df = dcast(mun.dat, mun.code ~ month, value.var = "dat")
+# Manually grouped data.
 tmp.df = dcast(mun.dat, mun.code ~ month, value.var = "mydat")
 
 # Make it pretty.
